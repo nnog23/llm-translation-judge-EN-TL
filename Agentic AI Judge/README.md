@@ -16,8 +16,8 @@ LLM-AGENTIC-AI is a project designed to leverage Large Language Models (LLMs) fo
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/LLM-AGENTIC-AI.git
-   cd LLM-AGENTIC-AI
+   git clone https://github.com/nnog/llm-translation-judge-EN-TL.git
+   cd Agentic AI Judge
    ```
 2. Install dependencies:
    ```
