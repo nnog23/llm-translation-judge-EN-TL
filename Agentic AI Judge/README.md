@@ -23,6 +23,10 @@ LLM-AGENTIC-AI is a project designed to leverage Large Language Models (LLMs) fo
    ```
    pip install -r requirements.txt
    ```
+3. Change directory in agentic_judge_main.py
+   ```
+   PROJECT_DIR = "INSERT/DIRECTORY/HERE"  # Change this to your project directory
+   ```
 
 ## Usage
 
