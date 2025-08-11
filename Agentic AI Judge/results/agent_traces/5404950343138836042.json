@@ -1,0 +1,79 @@
+{
+  "timestamp": "2025-08-10T17:40:04.911612",
+  "trace": [
+    {
+      "criterion": "accuracy",
+      "tool_output": {
+        "alignment_score": 1.0
+      },
+      "score": 1,
+      "explanation": "The translation accurately conveys the meaning and intent of the English source text, preserving all key information."
+    },
+    {
+      "criterion": "fluency",
+      "tool_output": {
+        "grammar_flag": false,
+        "notes": []
+      },
+      "score": 0,
+      "explanation": "The translation contains an awkward phrasing ('Inanunsyo ng Kagawaran ng Kalusugan') which is not natural for Filipino speakers. The word order does not follow standard Filipino syntax."
+    },
+    {
+      "criterion": "coherence",
+      "tool_output": {},
+      "score": 0,
+      "explanation": "The translation does not maintain the logical flow and structure of the original sentence. The word order is incorrect, and the term 'programa' is used instead of 'programma' which is more appropriate for 'rollout'."
+    },
+    {
+      "criterion": "cultural_appropriateness",
+      "tool_output": {
+        "warnings": []
+      },
+      "score": 0,
+      "explanation": "The translation omits necessary formalities by using 'Inanunsyo' instead of the more appropriate 'Inihayag', which is more commonly used to announce official statements."
+    },
+    {
+      "criterion": "guideline_adherence",
+      "tool_output": {
+        "missing_terms": [
+          {
+            "english": "Vaccine",
+            "expected_filipino": "Bakuna"
+          }
+        ],
+        "incorrect_terms": []
+      },
+      "score": 0,
+      "explanation": "The translation uses incorrect Filipino terms ('Inanunsyo' instead of 'Inihayag' for announcement) and does not adhere to the domain-specific style guide for health-related announcements."
+    },
+    {
+      "criterion": "completeness",
+      "tool_output": {
+        "alignment_score": 1.0
+      },
+      "score": 0,
+      "explanation": "The translation omits the word 'new' which changes the meaning of the original sentence."
+    }
+  ],
+  "final_output": {
+    "criteria_scores": {
+      "accuracy": 1,
+      "fluency": 0,
+      "coherence": 0,
+      "cultural_appropriateness": 0,
+      "guideline_adherence": 0,
+      "completeness": 0
+    },
+    "raw_sum": 1,
+    "overall_score": 1,
+    "label": "poor",
+    "explanation": {
+      "accuracy": "The translation accurately conveys the meaning and intent of the English source text, preserving all key information.",
+      "fluency": "The translation contains an awkward phrasing ('Inanunsyo ng Kagawaran ng Kalusugan') which is not natural for Filipino speakers. The word order does not follow standard Filipino syntax.",
+      "coherence": "The translation does not maintain the logical flow and structure of the original sentence. The word order is incorrect, and the term 'programa' is used instead of 'programma' which is more appropriate for 'rollout'.",
+      "cultural_appropriateness": "The translation omits necessary formalities by using 'Inanunsyo' instead of the more appropriate 'Inihayag', which is more commonly used to announce official statements.",
+      "guideline_adherence": "The translation uses incorrect Filipino terms ('Inanunsyo' instead of 'Inihayag' for announcement) and does not adhere to the domain-specific style guide for health-related announcements.",
+      "completeness": "The translation omits the word 'new' which changes the meaning of the original sentence."
+    }
+  }
+}

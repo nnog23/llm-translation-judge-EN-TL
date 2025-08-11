@@ -1,0 +1,8 @@
+transformers
+accelerate
+huggingface_hub
+pyyaml
+tqdm
+scipy
+pandas
+torch

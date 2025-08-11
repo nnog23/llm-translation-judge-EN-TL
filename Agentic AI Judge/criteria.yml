@@ -1,0 +1,35 @@
+accuracy: |
+  Definition: Measures whether the Filipino translation correctly conveys the meaning, intent, and details of the English source text.
+  Scoring:
+    1: All key information and nuances from the source are preserved without distortion.
+    0: Any key information, meaning, or nuance is incorrect, missing, or significantly altered.
+
+fluency: |
+  Definition: Measures whether the Filipino translation is grammatically correct, natural, and idiomatic for a native speaker.
+  Scoring:
+    1: Text is free of grammatical errors, awkward phrasing, and unnatural constructions.
+    0: Contains noticeable grammar mistakes, unnatural phrasing, or literal translations that disrupt readability.
+
+coherence: |
+  Definition: Measures whether the translation maintains logical flow, structure, and context from the source text.
+  Scoring:
+    1: Ideas are presented in a logical order that matches the source; transitions and references are clear.
+    0: Ideas are jumbled, sentences are disjointed, or meaning flow is disrupted.
+
+cultural_appropriateness: |
+  Definition: If applicable, measures whether the translation respects Filipino cultural norms, idioms, formality, and sensitivities.
+  Scoring:
+    1: IF APPLICABLE, Uses culturally appropriate phrasing, correct honorifics (e.g., "po", "opo" where needed), and avoids offensive or unnatural idioms.
+    0: Omits necessary formalities, uses culturally inappropriate phrasing, or introduces insensitive expressions.
+
+guideline_adherence: |
+  Definition: If applicable, measures whether the translation follows domain-specific style guides, terminology, and conventions.
+  Scoring:
+    1: Uses correct domain-specific terms and adheres to style rules for the chosen domain.
+    0: Uses incorrect or inconsistent terminology, or ignores domain-specific style requirements.
+
+completeness: |
+  Definition: Measures whether all parts of the English source text are translated without omissions or unnecessary additions.
+  Scoring:
+    1: Every element of the source is translated accurately; nothing important is omitted or added.
+    0: Any part of the source is missing, or extra information is inserted that changes the meaning.
