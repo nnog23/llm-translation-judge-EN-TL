@@ -19,7 +19,7 @@ from scipy.stats import spearmanr
 # transformers, accelerate, huggingface_hub, pyyaml, tqdm, scipy, pandas, torch
 
 # 2. Configure your project directory here:
-PROJECT_DIR = "C:/Users/Aira/Documents/GitHub/LLM-AGENTIC-AI"
+PROJECT_DIR = "INSERT/DIRECTORY/HERE"  # Change this to your project directory
 
 # 3. Add LLM package directory to sys.path
 LLM_DIR = os.path.join(PROJECT_DIR, 'LLM')
